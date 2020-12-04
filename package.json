@@ -1,0 +1,18 @@
+{
+  "name": "erran-apollo-server",
+  "version": "1.0.0",
+  "description": "A GitHub Action service container which runs apollo-server against one or more schema files",
+  "author": "Erran Carey <me@errancarey.com>",
+  "main": "index.js",
+  "repository": "https://github.com/erran/apollo-server",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.2.5",
+    "@graphql-tools/merge": "^6.2.6",
+    "apollo-server": "^2.19.0",
+    "graphql": "^15.4.0"
+  }
+}
